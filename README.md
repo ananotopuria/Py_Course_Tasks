@@ -2,6 +2,10 @@
 
 This repository contains a collection of Python tasks designed to enhance programming skills through practice. Each task focuses on different aspects of Python, including random number generation, functional programming, and data analysis.
 
+## Python Version
+
+This project requires **Python 3.12.5**. It is recommended to use the latest version of Python 3.x to ensure compatibility with all tasks.
+
 ## Task 1: Multiplication Quiz
 
 **Description**:  
@@ -44,3 +48,19 @@ A script that performs analysis on a list of students and their grades. It extra
 
 **How to Run**:  
 Simply run the script to see the results of the grade analysis.
+
+---
+
+## Task 4: Student Grades Management
+
+**Description**:  
+A Python script that uses Object-Oriented Programming (OOP) principles to manage student grades. It defines classes for students and classrooms, allowing you to add grades, calculate averages, and determine top-performing and failing students.
+
+**Functionality**:  
+- Defines a `Student` class to store a student's name and grades.
+- Implements methods to add grades and calculate the average grade.
+- Defines a `Classroom` class to manage multiple students.
+- Provides methods to identify the top three students and those who failed.
+
+**How to Run**:  
+Instantiate the `Student` and `Classroom` classes, add grades to students, and use the provided methods to analyze the classroom's performance.
