@@ -64,3 +64,23 @@ A Python script that uses Object-Oriented Programming (OOP) principles to manage
 
 **How to Run**:  
 Instantiate the `Student` and `Classroom` classes, add grades to students, and use the provided methods to analyze the classroom's performance.
+
+---
+
+## Task 5: Basic Shape Hierarchy
+
+**Description**:  
+A Python script that demonstrates the concepts of inheritance and polymorphism through a simple shape hierarchy. The task involves creating a base class `Shape` and two subclasses `Rectangle` and `Circle`, each implementing their own version of the `area()` method.
+
+**Functionality**:
+- Defines a `Shape` base class with a `name` attribute and an `area()` method that returns `None`.
+- Implements a `Rectangle` subclass that inherits from `Shape`:
+  - **Attributes**: `width`, `height`.
+  - **Method**: `area()` returns the area of the rectangle.
+- Implements a `Circle` subclass that inherits from `Shape`:
+  - **Attribute**: `radius`.
+  - **Method**: `area()` returns the area of the circle using `math.pi`.
+
+**How to Run**:
+- Instantiate the `Rectangle` and `Circle` classes with appropriate dimensions.
+- Call the `print_area()` function to display the area of each shape.
